@@ -12,3 +12,8 @@
 addVectors :: (Floating a, Num b) => (a, b) -> (a, b) -> (a, b)
 addVectors a b = (fst a + fst b, snd a + snd b) 
 addVectors' (a,b)(c,d) = (a + c, b + d)
+
+-- recursion; problem küçük parçalara bölünür
+-- bitiş koşulunu doğru belirlemeyi unutma!!
+
+--haskellde bitiş koşulu pattern olarak en yukarı yazılmalı 
