@@ -1,3 +1,5 @@
+--Recursion--
+
 factorial 0 = 1 --recursionda bitiş vermek önemli
 factorial x = x * factorial (x - 1)
 

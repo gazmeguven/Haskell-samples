@@ -1,3 +1,5 @@
+--Syntax in Functions--
+
 length' xs = sum [1 | _ <- xs] --underscore anonymous varible
 --parametre olarak liste alıyorsan s ekle, x desen de kod çalışır ama okunurluk için xs daha iyi
 

@@ -1,3 +1,5 @@
+--Starting Out--
+
 doubleme x = x + x	--type inference 
 
 square x = x * x
